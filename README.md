@@ -8,9 +8,10 @@ Backend
 The backend is built with NestJS and uses a Prisma database to store tasks. The API endpoints are:
 
 GET /tasks: Retrieves a list of all tasks
-POST /tasks: Creates a new task
-PATCH /tasks/:id: Updates an existing task
-DELETE /tasks/:id: Deletes a task
+- POST /tasks: Creates a new task
+- PATCH /tasks/:id: Updates an existing task
+- DELETE /tasks/:id: Deletes a task
+
 The backend uses a Use Case Factory to create instances of Use Cases, which encapsulate the business logic of the application.
 
 Frontend
